@@ -50,3 +50,29 @@
 
 
 </script>
+
+<style>
+    div.notices.custom ul:first-child:after {
+        content: 'Tip';
+        position: absolute;
+        top: 2px;
+        color: #fff;
+        left: 2rem;
+    }
+    div.notices.custom ul:first-child:before {
+        position: absolute;
+        top: 2px;
+        color: #fff;
+        font-family: 'Font Awesome\ 5 Free';
+        content: "\f06a";
+        font-weight: 900;
+        /* Fix version 5.0.9 */
+        left: 10px;
+    }
+    div.notices.custom ul {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-top: 30px solid rgba(92, 184, 92, 0.8);
+        background: #E6F9E6;
+    }
+</style>
